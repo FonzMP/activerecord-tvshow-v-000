@@ -1,7 +1,7 @@
 class CreateShows < ActiveRecord::Migration
   def change
     create_table :shows do |t|
-      t.string :title
+      t.string :name
       t.datetime :release_date
       t.string :director
       t.string :lead
