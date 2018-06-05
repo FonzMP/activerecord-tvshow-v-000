@@ -8,4 +8,8 @@ class Show < ActiveRecord::Base
     show = Show.find_by(Show::highest_rating)
   end
 
+  def Show::lowest_rating
+
+  end
+
 end
