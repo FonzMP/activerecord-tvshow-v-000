@@ -4,10 +4,7 @@ class CreateShows < ActiveRecord::Migration
       t.string :name
       t.string :network
       t.string :day
-      t.datetime :release_date
-      t.string :director
-      t.string :lead
-      t.datetime :in_theaters
+      t.integer :release_date
     end
   end
 end
