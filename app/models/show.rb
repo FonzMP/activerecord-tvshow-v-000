@@ -13,7 +13,7 @@ class Show < ActiveRecord::Base
   end
 
   def Show::least_popular_show
-    Show.find_by(Show::lowest_rating)
+    show = Show.find_by(Show::lowest_rating)
   end
 
 end
