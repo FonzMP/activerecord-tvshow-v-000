@@ -3,6 +3,7 @@ class CreateShows < ActiveRecord::Migration
     create_table :shows do |t|
       t.string :name
       t.string :network
+      t.string :day
       t.datetime :release_date
       t.string :director
       t.string :lead
